@@ -41,12 +41,12 @@ document.getElementById("footer").innerHTML = `
                 <h3 class="text-lg font-semibold">Quick Links</h3>
 
                 <ul class="mt-6 space-y-4 text-white/70">
-
-                    <li><a href="#about" class="hover:text-[#18A558] transition">About Doctor</a></li>
-                    <li><a href="#services" class="hover:text-[#18A558] transition">Services</a></li>
-                    <li><a href="#why-choose" class="hover:text-[#18A558] transition">Why Choose</a></li>
-                    <li><a href="#appointment" class="hover:text-[#18A558] transition">Book Appointment</a></li>
-                    <li><a href="#contact" class="hover:text-[#18A558] transition">Contact</a></li>
+ <li><a href="index.html" class="hover:text-[#18A558] transition">Home</a></li>
+                    <li><a href="about.html" class="hover:text-[#18A558] transition">About Doctor</a></li>
+                    <li><a href="services.html" class="hover:text-[#18A558] transition">Services</a></li>
+                    <li><a href="gallery.html" class="hover:text-[#18A558] transition">Gallery</a></li>
+                   
+                    <li><a href="contact.html" class="hover:text-[#18A558] transition">Contact</a></li>
 
                 </ul>
             </div>

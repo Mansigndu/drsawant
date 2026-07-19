@@ -63,24 +63,28 @@
             HERO
 ====================================== -->
 
-<section class="relative overflow-hidden bg-white pt-24 sm:pt-28 lg:pt-32 pb-16 sm:pb-20 lg:pb-24">
+<section class="relative overflow-hidden bg-gradient-to-br from-white via-slate-50 to-cyan-50 pt-24 sm:pt-28 lg:pt-32 pb-16 sm:pb-20 lg:pb-24">
 
     <!-- Background -->
-    <div class="absolute inset-0">
-        <div class="absolute top-0 left-0 w-72 h-72 sm:w-96 sm:h-96 lg:w-[500px] lg:h-[500px] bg-[#0B5D8C]/5 rounded-full blur-3xl"></div>
+    <div class="absolute inset-0 overflow-hidden">
 
-        <div class="absolute bottom-0 right-0 w-72 h-72 sm:w-96 sm:h-96 lg:w-[500px] lg:h-[500px] bg-[#18A558]/5 rounded-full blur-3xl"></div>
+        <div class="absolute -top-32 -left-32 w-[450px] h-[450px] bg-[#0B5D8C]/10 rounded-full blur-3xl"></div>
+
+        <div class="absolute -bottom-32 -right-32 w-[450px] h-[450px] bg-[#18A558]/10 rounded-full blur-3xl"></div>
+
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[250px] h-[250px] bg-cyan-100/40 rounded-full blur-3xl"></div>
+
     </div>
 
     <div class="relative z-10 max-w-7xl mx-auto px-5 sm:px-8 lg:px-10">
 
-        <div class="grid lg:grid-cols-2 gap-14 lg:gap-20 items-center">
+        <div class="grid lg:grid-cols-2 gap-16 xl:gap-24 items-center">
 
             <!-- LEFT -->
-            <div data-aos="fade-right">
+            <div class="order-1" data-aos="fade-right">
 
                 <span
-                    class="inline-flex items-center gap-2 sm:gap-3 px-4 sm:px-5 py-2 rounded-full bg-[#0B5D8C]/10 text-[#0B5D8C] font-medium text-sm sm:text-base">
+                    class="inline-flex items-center gap-3 px-5 py-2.5 rounded-full bg-[#0B5D8C]/10 text-[#0B5D8C] font-semibold">
 
                     <i class="fa-solid fa-stethoscope"></i>
 
@@ -89,22 +93,26 @@
                 </span>
 
                 <h1
-                    class="mt-6 text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight text-slate-900">
+                    class="mt-7 text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black leading-tight text-slate-900">
 
                     Advanced Healthcare
 
                     <span class="block text-[#0B5D8C]">
+
                         Personalized For
+
                     </span>
 
-                    <span class="text-[#18A558]">
+                    <span class="block text-[#18A558]">
+
                         Every Patient
+
                     </span>
 
                 </h1>
 
                 <p
-                    class="mt-6 text-base sm:text-lg leading-7 sm:leading-8 text-gray-600 max-w-xl">
+                    class="mt-7 text-lg leading-9 text-gray-600 max-w-2xl">
 
                     Dr. Prof. Mahendra Sawant provides comprehensive diabetes management,
                     physician consultation, preventive healthcare, hypertension care,
@@ -115,17 +123,17 @@
 
                 <!-- Buttons -->
 
-                <div class="mt-8 flex flex-col sm:flex-row gap-4">
+                <div class="mt-10 flex flex-col sm:flex-row gap-4">
 
                     <a href="contact.html"
-                        class="px-8 py-4 rounded-full bg-[#0B5D8C] text-white font-semibold text-center hover:bg-[#18A558] duration-300">
+                        class="inline-flex items-center justify-center rounded-full bg-[#0B5D8C] px-8 py-4 text-white font-semibold shadow-lg hover:bg-[#18A558] transition duration-300">
 
                         Book Appointment
 
                     </a>
 
                     <a href="tel:+919833206879"
-                        class="px-8 py-4 rounded-full border border-[#0B5D8C] text-[#0B5D8C] font-semibold text-center hover:bg-[#0B5D8C] hover:text-white duration-300">
+                        class="inline-flex items-center justify-center rounded-full border-2 border-[#0B5D8C] px-8 py-4 text-[#0B5D8C] font-semibold hover:bg-[#0B5D8C] hover:text-white transition duration-300">
 
                         Call Now
 
@@ -135,102 +143,69 @@
 
                 <!-- Services -->
 
-                <div class="grid sm:grid-cols-2 gap-4 mt-10">
+                <div class="grid sm:grid-cols-2 gap-5 mt-12">
 
                     <div class="flex items-center gap-3">
-                        <i class="fa-solid fa-circle-check text-[#18A558] text-lg"></i>
+
+                        <div class="w-8 h-8 rounded-full bg-[#18A558]/10 flex items-center justify-center">
+
+                            <i class="fa-solid fa-check text-[#18A558] text-sm"></i>
+
+                        </div>
+
                         <span class="font-medium text-slate-700">
+
                             Diabetes Specialist
+
                         </span>
+
                     </div>
 
                     <div class="flex items-center gap-3">
-                        <i class="fa-solid fa-circle-check text-[#18A558] text-lg"></i>
+
+                        <div class="w-8 h-8 rounded-full bg-[#18A558]/10 flex items-center justify-center">
+
+                            <i class="fa-solid fa-check text-[#18A558] text-sm"></i>
+
+                        </div>
+
                         <span class="font-medium text-slate-700">
+
                             Physician Consultation
+
                         </span>
+
                     </div>
 
                     <div class="flex items-center gap-3">
-                        <i class="fa-solid fa-circle-check text-[#18A558] text-lg"></i>
+
+                        <div class="w-8 h-8 rounded-full bg-[#18A558]/10 flex items-center justify-center">
+
+                            <i class="fa-solid fa-check text-[#18A558] text-sm"></i>
+
+                        </div>
+
                         <span class="font-medium text-slate-700">
+
                             Preventive Healthcare
+
                         </span>
+
                     </div>
 
                     <div class="flex items-center gap-3">
-                        <i class="fa-solid fa-circle-check text-[#18A558] text-lg"></i>
+
+                        <div class="w-8 h-8 rounded-full bg-[#18A558]/10 flex items-center justify-center">
+
+                            <i class="fa-solid fa-check text-[#18A558] text-sm"></i>
+
+                        </div>
+
                         <span class="font-medium text-slate-700">
+
                             Lifestyle Guidance
+
                         </span>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <!-- RIGHT -->
-
-            <div class="flex justify-center mt-10 lg:mt-0" data-aos="fade-left">
-
-                <div class="relative">
-
-                    <!-- Circle -->
-
-                    <div
-                        class="w-72 h-72 sm:w-80 sm:h-80 md:w-[360px] md:h-[360px] lg:w-[430px] lg:h-[430px] rounded-full bg-gradient-to-br from-[#0B5D8C]/10 to-[#18A558]/10">
-                    </div>
-
-                    <!-- Image -->
-
-                    <img
-                        src="./assets/images/services.png"
-                        alt="Medical Services"
-                        class="absolute bottom-0 left-1/2 -translate-x-1/2 w-56 sm:w-64 md:w-72 lg:w-80 xl:w-[360px]">
-
-                    <!-- Experience Card -->
-
-                    <div
-                        class="absolute top-2 sm:-top-5 right-0 bg-white shadow-xl rounded-xl sm:rounded-2xl px-4 py-3 sm:px-5 sm:py-4">
-
-                        <p class="text-xs sm:text-sm text-gray-500">
-
-                            Experience
-
-                        </p>
-
-                        <h3
-                            class="text-lg sm:text-xl font-bold text-[#0B5D8C]">
-
-                            31+ Years
-
-                        </h3>
-
-                    </div>
-
-                    <!-- Patients Card -->
-
-                    <div
-                        class="absolute bottom-2 sm:bottom-6 left-0 sm:-left-5 bg-white shadow-xl rounded-xl sm:rounded-2xl px-4 py-3 sm:px-5 sm:py-4">
-
-                        <p class="text-xs sm:text-sm text-gray-500">
-
-                            Patients
-
-                        </p>
-
-                        <h3
-                            class="text-lg sm:text-xl font-bold text-[#18A558]">
-
-                            50K+
-
-                        </h3>
-
-                        <p class="text-[11px] sm:text-xs text-gray-500">
-
-                            Successfully Treated
-
-                        </p>
 
                     </div>
 
@@ -238,6 +213,61 @@
 
             </div>
 
+            <!-- RIGHT STARTS -->
+             <!-- RIGHT -->
+
+<!-- RIGHT -->
+<!-- RIGHT -->
+<div class="order-2 flex justify-center lg:justify-end mt-14 lg:mt-0" data-aos="fade-left">
+
+    <div class="relative w-full max-w-[520px]">
+
+        <!-- Background Glow -->
+        <div class="absolute -inset-6 bg-gradient-to-br from-[#0B5D8C]/10 to-[#18A558]/10 rounded-[40px] blur-3xl"></div>
+
+        <!-- Image Card -->
+
+        <div class="relative rounded-[32px] overflow-hidden bg-white shadow-[0_25px_70px_rgba(0,0,0,0.12)]">
+
+            <img
+                src="https://ik.imagekit.io/5f5fo2fhm/doctorstretoscope.jpeg"
+                alt="Medical Services"
+                class="w-full h-auto object-cover">
+
+        </div>
+
+       
+
+       
+
+       
+
+    </div>
+
+</div>
+
+        </div>
+
+    </div>
+
+</section>
+        </div>
+
+        <!-- Bottom Decorative Line -->
+
+        <div
+            class="absolute
+                   bottom-0
+                   left-1/2
+                   -translate-x-1/2
+                   w-40
+                   sm:w-56
+                   h-1
+                   rounded-full
+                   bg-gradient-to-r
+                   from-transparent
+                   via-[#0B5D8C]/40
+                   to-transparent">
         </div>
 
     </div>
